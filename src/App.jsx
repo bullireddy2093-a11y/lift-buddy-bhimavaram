@@ -408,7 +408,7 @@ export default function App() {
       {toast && (
         <div className="fixed top-16 left-1/2 -translate-x-1/2 z-50 w-[92%] max-w-md animate-fade-in">
           <div
-            className={`px-4 py-3 {' items-center gap-3 text-sm font-medium ${
+            className={`px-4 py-3 rounded-2xl shadow-lg border flex items-center gap-3 text-sm font-medium ${
               toast.type === 'error'
                 ? 'bg-rose-600 text-white border-rose-500'
                 : toast.type === 'info'
